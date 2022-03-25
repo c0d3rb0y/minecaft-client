@@ -1,0 +1,304 @@
+src/minecraft/net/minecraft/network/NetworkManager.java:19: warning: [deprecation] LocalEventLoopGroup in io.netty.channel.local has been deprecated
+import io.netty.channel.local.LocalEventLoopGroup;
+                             ^
+src/minecraft/net/minecraft/network/NetworkSystem.java:16: warning: [deprecation] LocalEventLoopGroup in io.netty.channel.local has been deprecated
+import io.netty.channel.local.LocalEventLoopGroup;
+                             ^
+src/minecraft/net/minecraft/item/ItemFirework.java:16: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated
+import net.minecraft.util.text.translation.I18n;
+                                          ^
+src/minecraft/net/minecraft/item/ItemShield.java:16: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated
+import net.minecraft.util.text.translation.I18n;
+                                          ^
+src/minecraft/net/minecraft/item/ItemPotion.java:21: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated
+import net.minecraft.util.text.translation.I18n;
+                                          ^
+src/minecraft/net/minecraft/item/ItemMap.java:22: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated
+import net.minecraft.util.text.translation.I18n;
+                                          ^
+src/minecraft/net/minecraft/item/ItemLingeringPotion.java:15: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated
+import net.minecraft.util.text.translation.I18n;
+                                          ^
+src/minecraft/net/minecraft/item/ItemSplashPotion.java:12: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated
+import net.minecraft.util.text.translation.I18n;
+                                          ^
+src/minecraft/net/minecraft/item/ItemBanner.java:26: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated
+import net.minecraft.util.text.translation.I18n;
+                                          ^
+src/minecraft/net/minecraft/item/ItemSkull.java:23: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated
+import net.minecraft.util.text.translation.I18n;
+                                          ^
+src/minecraft/net/minecraft/item/ItemFireworkCharge.java:8: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated
+import net.minecraft.util.text.translation.I18n;
+                                          ^
+src/minecraft/net/minecraft/item/ItemTippedArrow.java:14: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated
+import net.minecraft.util.text.translation.I18n;
+                                          ^
+src/minecraft/net/minecraft/item/ItemMonsterPlacer.java:33: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated
+import net.minecraft.util.text.translation.I18n;
+                                          ^
+src/minecraft/net/minecraft/item/ItemWrittenBook.java:22: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated
+import net.minecraft.util.text.translation.I18n;
+                                          ^
+src/minecraft/net/minecraft/item/ItemRecord.java:19: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated
+import net.minecraft.util.text.translation.I18n;
+                                          ^
+src/minecraft/net/minecraft/block/BlockDoor.java:27: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated
+import net.minecraft.util.text.translation.I18n;
+                                          ^
+src/minecraft/net/minecraft/world/chunk/storage/AnvilSaveConverter.java:18: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated
+import net.minecraft.util.text.translation.I18n;
+                                          ^
+src/minecraft/net/minecraft/block/BlockRedstoneRepeater.java:20: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated
+import net.minecraft.util.text.translation.I18n;
+                                          ^
+src/minecraft/net/minecraft/block/BlockSkull.java:37: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated
+import net.minecraft.util.text.translation.I18n;
+                                          ^
+src/minecraft/net/minecraft/block/BlockRedstoneComparator.java:32: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated
+import net.minecraft.util.text.translation.I18n;
+                                          ^
+src/minecraft/net/minecraft/entity/passive/EntityOcelot.java:40: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated
+import net.minecraft.util.text.translation.I18n;
+                                          ^
+src/minecraft/net/minecraft/entity/passive/EntityRabbit.java:47: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated
+import net.minecraft.util.text.translation.I18n;
+                                          ^
+src/minecraft/net/minecraft/block/BlockBanner.java:23: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated
+import net.minecraft.util.text.translation.I18n;
+                                          ^
+src/minecraft/net/minecraft/block/BlockWall.java:20: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated
+import net.minecraft.util.text.translation.I18n;
+                                          ^
+src/minecraft/net/minecraft/block/BlockStoneSlabNew.java:18: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated
+import net.minecraft.util.text.translation.I18n;
+                                          ^
+src/minecraft/net/minecraft/block/BlockFlowerPot.java:28: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated
+import net.minecraft.util.text.translation.I18n;
+                                          ^
+src/minecraft/net/minecraft/block/BlockSapling.java:15: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated
+import net.minecraft.util.text.translation.I18n;
+                                          ^
+src/minecraft/net/minecraft/block/BlockBrewingStand.java:30: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated
+import net.minecraft.util.text.translation.I18n;
+                                          ^
+src/minecraft/net/minecraft/block/BlockPrismarine.java:14: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated
+import net.minecraft.util.text.translation.I18n;
+                                          ^
+src/minecraft/net/minecraft/block/BlockStone.java:17: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated
+import net.minecraft.util.text.translation.I18n;
+                                          ^
+src/minecraft/net/minecraft/block/BlockSponge.java:20: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated
+import net.minecraft.util.text.translation.I18n;
+                                          ^
+src/minecraft/net/minecraft/block/BlockShulkerBox.java:38: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated
+import net.minecraft.util.text.translation.I18n;
+                                          ^
+src/minecraft/net/minecraft/potion/PotionUtils.java:19: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated
+import net.minecraft.util.text.translation.I18n;
+                                          ^
+src/minecraft/net/minecraft/network/NetworkManager.java:19: warning: [deprecation] LocalEventLoopGroup in io.netty.channel.local has been deprecated
+import io.netty.channel.local.LocalEventLoopGroup;
+                             ^
+src/minecraft/net/minecraft/network/NetworkSystem.java:16: warning: [deprecation] LocalEventLoopGroup in io.netty.channel.local has been deprecated
+import io.netty.channel.local.LocalEventLoopGroup;
+                             ^
+src/minecraft/net/minecraft/item/ItemFirework.java:16: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated
+import net.minecraft.util.text.translation.I18n;
+                                          ^
+src/minecraft/net/minecraft/item/ItemShield.java:16: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated
+import net.minecraft.util.text.translation.I18n;
+                                          ^
+src/minecraft/net/minecraft/item/ItemPotion.java:21: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated
+import net.minecraft.util.text.translation.I18n;
+                                          ^
+src/minecraft/net/minecraft/item/ItemMap.java:22: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated
+import net.minecraft.util.text.translation.I18n;
+                                          ^
+src/minecraft/net/minecraft/item/ItemLingeringPotion.java:15: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated
+import net.minecraft.util.text.translation.I18n;
+                                          ^
+src/minecraft/net/minecraft/item/ItemSplashPotion.java:12: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated
+import net.minecraft.util.text.translation.I18n;
+                                          ^
+src/minecraft/net/minecraft/item/ItemBanner.java:26: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated
+import net.minecraft.util.text.translation.I18n;
+                                          ^
+src/minecraft/net/minecraft/item/ItemSkull.java:23: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated
+import net.minecraft.util.text.translation.I18n;
+                                          ^
+src/minecraft/net/minecraft/item/ItemFireworkCharge.java:8: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated
+import net.minecraft.util.text.translation.I18n;
+                                          ^
+src/minecraft/net/minecraft/item/ItemTippedArrow.java:14: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated
+import net.minecraft.util.text.translation.I18n;
+                                          ^
+src/minecraft/net/minecraft/item/ItemMonsterPlacer.java:33: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated
+import net.minecraft.util.text.translation.I18n;
+                                          ^
+src/minecraft/net/minecraft/item/ItemWrittenBook.java:22: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated
+import net.minecraft.util.text.translation.I18n;
+                                          ^
+src/minecraft/net/minecraft/item/ItemRecord.java:19: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated
+import net.minecraft.util.text.translation.I18n;
+                                          ^
+src/minecraft/net/minecraft/block/BlockDoor.java:27: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated
+import net.minecraft.util.text.translation.I18n;
+                                          ^
+src/minecraft/net/minecraft/world/chunk/storage/AnvilSaveConverter.java:18: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated
+import net.minecraft.util.text.translation.I18n;
+                                          ^
+src/minecraft/net/minecraft/block/BlockRedstoneRepeater.java:20: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated
+import net.minecraft.util.text.translation.I18n;
+                                          ^
+src/minecraft/net/minecraft/block/BlockSkull.java:37: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated
+import net.minecraft.util.text.translation.I18n;
+                                          ^
+src/minecraft/net/minecraft/block/BlockRedstoneComparator.java:32: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated
+import net.minecraft.util.text.translation.I18n;
+                                          ^
+src/minecraft/net/minecraft/entity/passive/EntityOcelot.java:40: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated
+import net.minecraft.util.text.translation.I18n;
+                                          ^
+src/minecraft/net/minecraft/entity/passive/EntityRabbit.java:47: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated
+import net.minecraft.util.text.translation.I18n;
+                                          ^
+src/minecraft/net/minecraft/block/BlockBanner.java:23: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated
+import net.minecraft.util.text.translation.I18n;
+                                          ^
+src/minecraft/net/minecraft/block/BlockWall.java:20: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated
+import net.minecraft.util.text.translation.I18n;
+                                          ^
+src/minecraft/net/minecraft/block/BlockStoneSlabNew.java:18: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated
+import net.minecraft.util.text.translation.I18n;
+                                          ^
+src/minecraft/net/minecraft/block/BlockFlowerPot.java:28: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated
+import net.minecraft.util.text.translation.I18n;
+                                          ^
+src/minecraft/net/minecraft/block/BlockSapling.java:15: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated
+import net.minecraft.util.text.translation.I18n;
+                                          ^
+src/minecraft/net/minecraft/block/BlockBrewingStand.java:30: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated
+import net.minecraft.util.text.translation.I18n;
+                                          ^
+src/minecraft/net/minecraft/block/BlockPrismarine.java:14: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated
+import net.minecraft.util.text.translation.I18n;
+                                          ^
+src/minecraft/net/minecraft/block/BlockStone.java:17: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated
+import net.minecraft.util.text.translation.I18n;
+                                          ^
+src/minecraft/net/minecraft/block/BlockSponge.java:20: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated
+import net.minecraft.util.text.translation.I18n;
+                                          ^
+src/minecraft/net/minecraft/block/BlockShulkerBox.java:38: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated
+import net.minecraft.util.text.translation.I18n;
+                                          ^
+src/minecraft/net/minecraft/potion/PotionUtils.java:19: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated
+import net.minecraft.util.text.translation.I18n;
+                                          ^
+src/minecraft/net/minecraft/network/NetworkManager.java:19: warning: [deprecation] LocalEventLoopGroup in io.netty.channel.local has been deprecated
+import io.netty.channel.local.LocalEventLoopGroup;
+                             ^
+src/minecraft/net/minecraft/network/NetworkSystem.java:16: warning: [deprecation] LocalEventLoopGroup in io.netty.channel.local has been deprecated
+import io.netty.channel.local.LocalEventLoopGroup;
+                             ^
+src/minecraft/net/minecraft/item/ItemFirework.java:16: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated
+import net.minecraft.util.text.translation.I18n;
+                                          ^
+src/minecraft/net/minecraft/item/ItemShield.java:16: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated
+import net.minecraft.util.text.translation.I18n;
+                                          ^
+src/minecraft/net/minecraft/item/ItemPotion.java:21: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated
+import net.minecraft.util.text.translation.I18n;
+                                          ^
+src/minecraft/net/minecraft/item/ItemMap.java:22: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated
+import net.minecraft.util.text.translation.I18n;
+                                          ^
+src/minecraft/net/minecraft/item/ItemLingeringPotion.java:15: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated
+import net.minecraft.util.text.translation.I18n;
+                                          ^
+src/minecraft/net/minecraft/item/ItemSplashPotion.java:12: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated
+import net.minecraft.util.text.translation.I18n;
+                                          ^
+src/minecraft/net/minecraft/item/ItemBanner.java:26: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated
+import net.minecraft.util.text.translation.I18n;
+                                          ^
+src/minecraft/net/minecraft/item/ItemSkull.java:23: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated
+import net.minecraft.util.text.translation.I18n;
+                                          ^
+src/minecraft/net/minecraft/item/ItemFireworkCharge.java:8: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated
+import net.minecraft.util.text.translation.I18n;
+                                          ^
+src/minecraft/net/minecraft/item/ItemTippedArrow.java:14: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated
+import net.minecraft.util.text.translation.I18n;
+                                          ^
+src/minecraft/net/minecraft/item/ItemMonsterPlacer.java:33: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated
+import net.minecraft.util.text.translation.I18n;
+                                          ^
+src/minecraft/net/minecraft/item/ItemWrittenBook.java:22: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated
+import net.minecraft.util.text.translation.I18n;
+                                          ^
+src/minecraft/net/minecraft/item/ItemRecord.java:19: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated
+import net.minecraft.util.text.translation.I18n;
+                                          ^
+src/minecraft/net/minecraft/block/BlockDoor.java:27: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated
+import net.minecraft.util.text.translation.I18n;
+                                          ^
+src/minecraft/net/minecraft/world/chunk/storage/AnvilSaveConverter.java:18: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated
+import net.minecraft.util.text.translation.I18n;
+                                          ^
+src/minecraft/net/minecraft/block/BlockRedstoneRepeater.java:20: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated
+import net.minecraft.util.text.translation.I18n;
+                                          ^
+src/minecraft/net/minecraft/block/BlockSkull.java:37: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated
+import net.minecraft.util.text.translation.I18n;
+                                          ^
+src/minecraft/net/minecraft/block/BlockRedstoneComparator.java:32: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated
+import net.minecraft.util.text.translation.I18n;
+                                          ^
+src/minecraft/net/minecraft/entity/passive/EntityOcelot.java:40: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated
+import net.minecraft.util.text.translation.I18n;
+                                          ^
+src/minecraft/net/minecraft/entity/passive/EntityRabbit.java:47: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated
+import net.minecraft.util.text.translation.I18n;
+                                          ^
+src/minecraft/net/minecraft/block/BlockBanner.java:23: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated
+import net.minecraft.util.text.translation.I18n;
+                                          ^
+src/minecraft/net/minecraft/block/BlockWall.java:20: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated
+import net.minecraft.util.text.translation.I18n;
+                                          ^
+src/minecraft/net/minecraft/block/BlockStoneSlabNew.java:18: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated
+import net.minecraft.util.text.translation.I18n;
+                                          ^
+src/minecraft/net/minecraft/block/BlockFlowerPot.java:28: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated
+import net.minecraft.util.text.translation.I18n;
+                                          ^
+src/minecraft/net/minecraft/block/BlockSapling.java:15: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated
+import net.minecraft.util.text.translation.I18n;
+                                          ^
+src/minecraft/net/minecraft/block/BlockBrewingStand.java:30: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated
+import net.minecraft.util.text.translation.I18n;
+                                          ^
+src/minecraft/net/minecraft/block/BlockPrismarine.java:14: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated
+import net.minecraft.util.text.translation.I18n;
+                                          ^
+src/minecraft/net/minecraft/block/BlockStone.java:17: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated
+import net.minecraft.util.text.translation.I18n;
+                                          ^
+src/minecraft/net/minecraft/block/BlockSponge.java:20: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated
+import net.minecraft.util.text.translation.I18n;
+                                          ^
+src/minecraft/net/minecraft/block/BlockShulkerBox.java:38: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated
+import net.minecraft.util.text.translation.I18n;
+                                          ^
+src/minecraft/net/minecraft/potion/PotionUtils.java:19: warning: [deprecation] I18n in net.minecraft.util.text.translation has been deprecated
+import net.minecraft.util.text.translation.I18n;
+                                          ^
+src/minecraft/net/minecraft/command/CommandBase.java:613: warning: [deprecation] getStateFromMeta(int) in Block has been deprecated
+                return p_190794_0_.getStateFromMeta(Integer.parseInt(p_190794_1_));
+                                  ^
+Note: Some input files additionally use or override a deprecated API.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+100 warnings

@@ -1,0 +1,16 @@
+18:04:51 - Java JDK is not installed ! Please install java JDK from http://java.oracle.com
+18:08:03 - "scalac" is not found on the PATH.  Scala files will not be recompiled
+18:08:18 - FATAL ERROR
+Traceback (most recent call last):
+  File "./runtime/decompile.py", line 144, in decompile
+    joined=only_joined)
+  File "/home/ethan/Documents/minecaft-client/runtime/mcp.py", line 32, in decompile_side
+    commands.createsrgs(side, use_srg=use_srg, rg_update=rg_update)
+  File "/home/ethan/Documents/minecaft-client/runtime/commands.py", line 861, in createsrgs
+    shutil.copyfile(srglk[side], sidelk[side])
+  File "/usr/lib/python2.7/shutil.py", line 97, in copyfile
+    with open(dst, 'wb') as fdst:
+IOError: [Errno 13] Permission denied: 'temp/client_rg.srg'
+18:09:27 - "scalac" is not found on the PATH.  Scala files will not be recompiled
+18:10:10 - "scalac" is not found on the PATH.  Scala files will not be recompiled
+18:13:36 - !! Missing server jar file. Aborting !!
