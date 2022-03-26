@@ -1,0 +1,16 @@
+{
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_by_something": "2022-03-26 03:17:02 -0500"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "plains": "2022-03-26 03:15:41 -0500",
+      "roofed_forest": "2022-03-26 03:16:35 -0500",
+      "river": "2022-03-26 03:16:34 -0500"
+    },
+    "done": false
+  }
+}

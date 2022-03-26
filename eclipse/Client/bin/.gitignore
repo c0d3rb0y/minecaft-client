@@ -1,0 +1,14 @@
+/assets/
+/crash-reports/
+/libraries/
+/logs/
+/saves/
+/server.properties
+/servers.dat
+/versions/
+/Start.class
+/javax/
+/mcp/
+/net/
+/shadersmod/
+/wug/
