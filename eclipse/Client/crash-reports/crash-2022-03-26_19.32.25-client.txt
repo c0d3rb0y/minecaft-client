@@ -1,0 +1,94 @@
+---- Minecraft Crash Report ----
+// Sorry :(
+
+Time: 3/26/22 7:32 PM
+Description: Unexpected error
+
+java.lang.IndexOutOfBoundsException: Index: 90, Size: 90
+	at java.util.ArrayList.rangeCheck(ArrayList.java:659)
+	at java.util.ArrayList.get(ArrayList.java:435)
+	at wug.modules.player.Scanner.onEvent(Scanner.java:64)
+	at wug.Client.onEvent(Client.java:62)
+	at wug.ui.HUD.draw(HUD.java:44)
+	at net.minecraft.client.gui.GuiIngame.renderGameOverlay(GuiIngame.java:398)
+	at net.minecraft.client.renderer.EntityRenderer.updateCameraAndRender(EntityRenderer.java:1369)
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1201)
+	at net.minecraft.client.Minecraft.run(Minecraft.java:475)
+	at net.minecraft.client.main.Main.main(Main.java:115)
+	at Start.main(Start.java:9)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Client thread
+Stacktrace:
+	at java.util.ArrayList.rangeCheck(ArrayList.java:659)
+	at java.util.ArrayList.get(ArrayList.java:435)
+	at wug.modules.player.Scanner.onEvent(Scanner.java:64)
+	at wug.Client.onEvent(Client.java:62)
+	at wug.ui.HUD.draw(HUD.java:44)
+	at net.minecraft.client.gui.GuiIngame.renderGameOverlay(GuiIngame.java:398)
+
+-- Affected level --
+Details:
+	Level name: MpServer
+	All players: 1 total; [EntityPlayerSP['Player639'/395, l='MpServer', x=-129.18, y=69.00, z=258.58]]
+	Chunk stats: MultiplayerChunkCache: 289, 289
+	Level seed: 0
+	Level generator: ID 00 - default, ver 1. Features enabled: false
+	Level generator options: 
+	Level spawn location: World: (-148,64,252), Chunk: (at 12,4,12 in -10,15; contains blocks -160,0,240 to -145,255,255), Region: (-1,0; contains chunks -32,0 to -1,31, blocks -512,0,0 to -1,255,511)
+	Level time: 88881 game time, 88881 day time
+	Level dimension: 0
+	Level storage version: 0x00000 - Unknown?
+	Level weather: Rain time: 0 (now: false), thunder time: 0 (now: false)
+	Level game mode: Game mode: survival (ID 0). Hardcore: false. Cheats: false
+	Forced entities: 90 total; [EntitySquid['Sqyd'/640, l='MpServer', x=-99.26, y=60.10, z=230.93], EntitySquid['Sqyd'/641, l='MpServer', x=-98.40, y=60.00, z=224.00], EntitySquid['Sqyd'/642, l='MpServer', x=-99.40, y=59.00, z=225.04], EntityChicken['Bawk Bawk!'/259, l='MpServer', x=-105.04, y=71.00, z=262.62], EntitySheep['Baa Baa!'/260, l='MpServer', x=-84.54, y=67.00, z=220.74], EntityChicken['Bawk Bawk!'/261, l='MpServer', x=-87.85, y=67.00, z=276.86], EntityChicken['Bawk Bawk!'/262, l='MpServer', x=-83.17, y=66.00, z=296.12], EntityChicken['Bawk Bawk!'/263, l='MpServer', x=-91.16, y=68.00, z=336.87], EntityBat['Batman'/520, l='MpServer', x=-193.50, y=47.00, z=297.51], EntitySkeleton['Spooke scury Skeletun'/521, l='MpServer', x=-185.50, y=68.00, z=179.50], EntityPlayerSP['Player639'/395, l='MpServer', x=-129.18, y=69.00, z=258.58], EntitySheep['Baa Baa!'/141, l='MpServer', x=-203.81, y=80.00, z=212.50], EntitySkeleton['Spooke scury Skeletun'/526, l='MpServer', x=-101.50, y=68.00, z=275.50], EntitySkeleton['Spooke scury Skeletun'/527, l='MpServer', x=-103.33, y=72.00, z=265.81], EntityChicken['Bawk Bawk!'/281, l='MpServer', x=-64.26, y=64.00, z=186.87], EntitySkeleton['Spooke scury Skeletun'/282, l='MpServer', x=-70.50, y=69.00, z=319.50], EntityChicken['Bawk Bawk!'/283, l='MpServer', x=-78.53, y=68.00, z=334.85], EntityCreeper['Creeper'/157, l='MpServer', x=-194.50, y=28.00, z=217.50], EntityZombie['Bad Hooman'/158, l='MpServer', x=-200.50, y=74.00, z=230.50], EntityZombie['Bad Hooman'/159, l='MpServer', x=-201.50, y=74.00, z=229.50], EntityDonkey['Donkeh'/160, l='MpServer', x=-198.27, y=68.00, z=276.49], EntityDonkey['Donkeh'/161, l='MpServer', x=-189.55, y=68.00, z=277.87], EntitySkeleton['Spooke scury Skeletun'/162, l='MpServer', x=-199.21, y=59.00, z=292.49], EntitySheep['Baa Baa!'/163, l='MpServer', x=-203.75, y=67.00, z=296.82], EntityMinecartChest['Litterbox on whEEEEls'/164, l='MpServer', x=-206.50, y=17.06, z=322.50], EntityChicken['Bawk Bawk!'/294, l='MpServer', x=-51.23, y=64.00, z=197.18], EntityChicken['Bawk Bawk!'/295, l='MpServer', x=-57.82, y=64.00, z=197.76], EntityChicken['Bawk Bawk!'/296, l='MpServer', x=-58.17, y=64.00, z=195.22], EntityZombie['Bad Hooman'/297, l='MpServer', x=-60.50, y=67.00, z=252.50], EntityDonkey['Donkeh'/182, l='MpServer', x=-185.01, y=80.00, z=206.14], EntitySpider['Spidur'/183, l='MpServer', x=-189.16, y=44.00, z=317.70], EntityZombie['Bad Hooman'/186, l='MpServer', x=-171.50, y=41.00, z=258.50], EntityDonkey['Donkeh'/187, l='MpServer', x=-167.37, y=66.00, z=277.35], EntityDonkey['Donkeh'/188, l='MpServer', x=-166.72, y=64.00, z=299.57], EntityCreeper['Creeper'/189, l='MpServer', x=-161.16, y=26.00, z=314.50], EntityBat['Batman'/574, l='MpServer', x=-147.49, y=45.07, z=278.59], EntityBat['Batman'/577, l='MpServer', x=-180.83, y=48.02, z=293.96], EntitySquid['Sqyd'/453, l='MpServer', x=-79.69, y=59.45, z=254.85], EntitySquid['Sqyd'/454, l='MpServer', x=-78.19, y=59.00, z=261.73], EntitySquid['Sqyd'/455, l='MpServer', x=-77.82, y=60.24, z=258.21], EntitySquid['Sqyd'/456, l='MpServer', x=-78.03, y=57.00, z=253.60], EntityDonkey['Donkeh'/203, l='MpServer', x=-145.01, y=70.00, z=179.00], EntitySpider['Spidur'/204, l='MpServer', x=-147.50, y=20.00, z=258.50], EntityCreeper['Creeper'/205, l='MpServer', x=-152.50, y=20.00, z=257.78], EntityCreeper['Creeper'/206, l='MpServer', x=-153.50, y=20.00, z=259.50], EntityCreeper['Creeper'/207, l='MpServer', x=-143.86, y=64.00, z=310.23], EntityDonkey['Donkeh'/208, l='MpServer', x=-139.63, y=64.00, z=297.20], EntityBat['Batman'/209, l='MpServer', x=-143.17, y=32.01, z=319.77], EntityChicken['Bawk Bawk!'/216, l='MpServer', x=-129.88, y=72.00, z=190.04], EntityDonkey['Donkeh'/217, l='MpServer', x=-139.66, y=72.00, z=184.19], EntityChicken['Bawk Bawk!'/218, l='MpServer', x=-135.49, y=71.00, z=198.76], EntitySpider['Spidur'/474, l='MpServer', x=-208.50, y=67.00, z=319.50], EntityItem['item.item.seeds'/219, l='MpServer', x=-134.28, y=66.00, z=255.66], EntityCreeper['Creeper'/603, l='MpServer', x=-196.50, y=54.00, z=303.50], EntityDonkey['Donkeh'/221, l='MpServer', x=-127.07, y=69.00, z=271.19], EntityCreeper['Creeper'/222, l='MpServer', x=-133.49, y=58.00, z=273.83], EntityCreeper['Creeper'/223, l='MpServer', x=-138.78, y=63.00, z=290.49], EntityItem['item.item.string'/224, l='MpServer', x=-129.38, y=66.00, z=294.24], EntityXPOrb['Experience Ballz'/225, l='MpServer', x=-132.25, y=65.00, z=290.82], EntityBat['Batman'/226, l='MpServer', x=-143.83, y=31.12, z=316.64], EntityChicken['Bawk Bawk!'/231, l='MpServer', x=-113.40, y=72.00, z=189.38], EntityDonkey['Donkeh'/232, l='MpServer', x=-122.79, y=72.00, z=208.52], EntityBat['Batman'/616, l='MpServer', x=-126.63, y=15.82, z=318.80], EntityChicken['Bawk Bawk!'/233, l='MpServer', x=-114.80, y=67.00, z=247.44], EntityBat['Batman'/617, l='MpServer', x=-127.19, y=15.03, z=323.10], EntityDonkey['Donkeh'/234, l='MpServer', x=-118.47, y=71.00, z=262.02], EntityBat['Batman'/618, l='MpServer', x=-125.03, y=13.52, z=316.28], EntityItem['item.item.egg'/235, l='MpServer', x=-127.27, y=70.00, z=265.39], EntityBat['Batman'/619, l='MpServer', x=-124.81, y=15.87, z=318.50], EntityChicken['Bawk Bawk!'/236, l='MpServer', x=-117.52, y=67.00, z=287.50], EntityCreeper['Creeper'/492, l='MpServer', x=-184.43, y=53.00, z=301.99], EntityZombie['Bad Hooman'/237, l='MpServer', x=-120.83, y=69.00, z=274.01], EntityCreeper['Creeper'/493, l='MpServer', x=-187.26, y=52.00, z=300.58], EntityBat['Batman'/238, l='MpServer', x=-112.76, y=31.10, z=288.52], EntityCreeper['Creeper'/494, l='MpServer', x=-178.50, y=54.00, z=305.50], EntityItem['item.tile.dirt.default'/239, l='MpServer', x=-126.88, y=63.00, z=293.13], EntityItem['item.tile.dirt.default'/240, l='MpServer', x=-125.98, y=63.00, z=294.86], EntityItem['item.item.seeds'/241, l='MpServer', x=-125.59, y=63.00, z=294.82], EntityItem['item.tile.dirt.default'/242, l='MpServer', x=-126.17, y=65.00, z=297.88], EntityItem['item.tile.dirt.default'/243, l='MpServer', x=-126.16, y=64.00, z=296.88], EntityZombie['Bad Hooman'/499, l='MpServer', x=-117.41, y=70.00, z=255.03], EntityItem['item.tile.dirt.default'/244, l='MpServer', x=-125.01, y=64.00, z=296.60], EntityItem['item.tile.dirt.default'/245, l='MpServer', x=-127.23, y=64.00, z=296.11], EntityItem['item.tile.dirt.default'/246, l='MpServer', x=-125.21, y=64.00, z=295.43], EntityItem['item.tile.dirt.default'/247, l='MpServer', x=-125.41, y=64.00, z=293.13], EntityItem['item.tile.dirt.default'/248, l='MpServer', x=-123.13, y=66.00, z=293.58], EntityItem['item.item.spiderEye'/249, l='MpServer', x=-127.84, y=64.00, z=295.57], EntityDonkey['Donkeh'/250, l='MpServer', x=-115.62, y=68.00, z=312.30], EntitySkeleton['Spooke scury Skeletun'/251, l='MpServer', x=-118.50, y=67.00, z=312.50], EntityDonkey['Donkeh'/252, l='MpServer', x=-116.92, y=67.00, z=329.26]]
+	Retry entities: 0 total; []
+	Server brand: vanilla
+	Server type: Integrated singleplayer server
+Stacktrace:
+	at net.minecraft.client.multiplayer.WorldClient.addWorldInfoToCrashReport(WorldClient.java:518)
+	at net.minecraft.client.Minecraft.addGraphicsAndWorldToCrashReport(Minecraft.java:2997)
+	at net.minecraft.client.Minecraft.run(Minecraft.java:504)
+	at net.minecraft.client.main.Main.main(Main.java:115)
+	at Start.main(Start.java:9)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.12
+	Operating System: Linux (amd64) version 5.4.0-99-generic
+	Java Version: 1.8.0_312, Private Build
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Private Build
+	Memory: 284694712 bytes (271 MB) / 680525824 bytes (649 MB) up to 1776812032 bytes (1694 MB)
+	JVM Flags: 0 total; 
+	IntCache: cache: 0, tcache: 0, allocated: 12, tallocated: 94
+	Launched Version: mcp
+	LWJGL: 2.9.4
+	OpenGL: Mesa Intel(R) UHD Graphics (CML GT2) GL version 4.6 (Compatibility Profile) Mesa 21.2.6, Intel
+	GL Caps: Using GL 1.3 multitexturing.
+Using GL 1.3 texture combiners.
+Using framebuffer objects because OpenGL 3.0 is supported and separate blending is supported.
+Shaders are available because OpenGL 2.1 is supported.
+VBOs are available because OpenGL 1.5 is supported.
+
+	Using VBOs: Yes
+	Is Modded: Very likely; Jar signature invalidated
+	Type: Client (map_client.txt)
+	Resource Packs: 
+	Current Language: LOLCAT (Kingdom of Cats)
+	Profiler Position: N/A (disabled)
+	CPU: 8x Intel(R) Core(TM) i7-10510U CPU @ 1.80GHz
+	OptiFine Version: OptiFine_1.12_HD_U_A0_pre
+	Render Distance Chunks: 8
+	Mipmaps: 4
+	Anisotropic Filtering: 1
+	Antialiasing: 0
+	Multitexture: false
+	Shaders: null
+	OpenGlVersion: 4.6 (Compatibility Profile) Mesa 21.2.6
+	OpenGlRenderer: Mesa Intel(R) UHD Graphics (CML GT2)
+	OpenGlVendor: Intel
+	CpuCount: 8

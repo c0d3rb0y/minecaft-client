@@ -1,0 +1,40 @@
+{
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2022-03-26 19:36:22 -0500"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_a_mob": {
+    "criteria": {
+      "zombie": "2022-03-26 19:36:22 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cake": {
+    "criteria": {
+      "has_egg": "2022-03-26 19:35:04 -0500"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_all_mobs": {
+    "criteria": {
+      "zombie": "2022-03-26 19:36:22 -0500"
+    },
+    "done": false
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "forest": "2022-03-26 19:37:35 -0500",
+      "birch_forest": "2022-03-26 19:35:22 -0500",
+      "extreme_hills_with_trees": "2022-03-26 19:36:33 -0500",
+      "forest_hills": "2022-03-26 19:37:39 -0500",
+      "plains": "2022-03-26 19:35:00 -0500",
+      "birch_forest_hills": "2022-03-26 19:37:19 -0500",
+      "extreme_hills": "2022-03-26 19:35:35 -0500",
+      "roofed_forest": "2022-03-26 19:37:29 -0500",
+      "river": "2022-03-26 19:35:34 -0500"
+    },
+    "done": false
+  }
+}

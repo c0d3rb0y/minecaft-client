@@ -1,5 +1,6 @@
 package wug.ui;
 
+import java.awt.Color;
 import java.util.Comparator;
 import wug.modules.render.TabGUI;
 import wug.modules.fun.Rainbow;
@@ -24,14 +25,14 @@ public class HUD {
 		Client.modules.sort(Comparator.comparingInt(m -> mc.fontRendererObj.getStringWidth(((Module)m).name)).reversed());
 		
 		text(Client.name + " " + Client.v + " - X:" + (int)mc.player.posX + " Y:" + (int)mc.player.posY + " Z:" + (int)mc.player.posZ, 3, 3, -1);
-		int i = 9;
+		int i = 12;
 		for(Module m : Client.modules) {
 			if(m.toggled && m.name != "TabGUI") {
 			
 			Gui.drawRect(sr.getScaledWidth() - mc.fontRendererObj.getStringWidth(m.name) - 7, i - 2, sr.getScaledWidth(), i + mc.fontRendererObj.FONT_HEIGHT + 1, 0x90252525 );
 			
 			if(Rainbow.on)
-				mc.fontRendererObj.drawString(m.name, sr.getScaledWidth() - mc.fontRendererObj.getStringWidth(m.name) - 3, i, TabGUI.gscolor);
+				mc.fontRendererObj.drawString(m.name, sr.getScaledWidth() - mc.fontRendererObj.getStringWidth(m.name) - 3, i, Color.HSBtoRGB(TabGUI.gshue, 0.9f, 0.9f));
 			else
 				mc.fontRendererObj.drawString(m.name, sr.getScaledWidth() - mc.fontRendererObj.getStringWidth(m.name) - 3, i, -1);
 

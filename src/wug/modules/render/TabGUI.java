@@ -18,6 +18,7 @@ public class TabGUI extends Module {
 	public int currentTab, moduleIndex;
 	public boolean expanded;
 	public static int gscolor;
+	public static float gshue;
 	
 	public TabGUI() {
 		super("TabGUI", Keyboard.KEY_NONE, Category.RENDER);
@@ -35,6 +36,7 @@ public class TabGUI extends Module {
 			float hue = (System.currentTimeMillis() % 5000)/5000f;
 			int color = Color.HSBtoRGB(hue, 1, 1);
 			gscolor = color;
+			gshue=hue;
 			
 			Gui.drawRect(4, mc.fontRendererObj.FONT_HEIGHT + 70, 100,  mc.fontRendererObj.FONT_HEIGHT + 14, 0x90000000);
 			if(!expanded) {

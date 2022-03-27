@@ -9,6 +9,7 @@ import net.minecraft.client.multiplayer.WorldClient;
 import net.minecraft.client.resources.I18n;
 import net.minecraft.realms.RealmsBridge;
 import net.minecraft.util.ResourceLocation;
+import wug.modules.render.BlurBG;
 import wug.ui.MainMenu;
 
 public class GuiIngameMenu extends GuiScreen
@@ -23,15 +24,19 @@ public class GuiIngameMenu extends GuiScreen
     
     @Override
     public void onGuiClosed() {
-    	//Disable Minecrafts blur shader
-        Minecraft.getMinecraft().entityRenderer.loadEntityShader(null);
-        super.onGuiClosed();
+    	if(BlurBG.on) {
+	    	//Disable Minecrafts blur shader
+	        Minecraft.getMinecraft().entityRenderer.loadEntityShader(null);
+	        super.onGuiClosed();
+	       }
     }
     
     public void initGui()
     {
+    	if(BlurBG.on) {
     	//Enable Minecrafts blur shader
         Minecraft.getMinecraft().entityRenderer.loadShader(new ResourceLocation("shaders/post/blur.json"));
+    	}
         this.saveStep = 0;
         this.buttonList.clear();
         int i = -16;

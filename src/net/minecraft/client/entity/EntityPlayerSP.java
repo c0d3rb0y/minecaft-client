@@ -80,6 +80,7 @@ import net.minecraft.world.IInteractionObject;
 import net.minecraft.world.World;
 import wug.Client;
 import wug.events.EventType;
+import wug.events.listeners.EventChat;
 import wug.events.listeners.EventMotion;
 import wug.events.listeners.EventUpdate;
 
@@ -380,7 +381,13 @@ public class EntityPlayerSP extends AbstractClientPlayer
      */
     public void sendChatMessage(String message)
     {
-        this.connection.sendPacket(new CPacketChatMessage(message));
+    	EventChat ec = new EventChat(message);
+    	
+    	Client.onEvent(ec);
+    	
+    	if(ec.isCancelled())
+    		return;
+        this.connection.sendPacket(new CPacketChatMessage(ec.getMessage()));
     }
 
     public void swingArm(EnumHand hand)

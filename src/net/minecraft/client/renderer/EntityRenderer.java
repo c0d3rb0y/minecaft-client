@@ -97,6 +97,8 @@ import org.lwjgl.util.glu.GLU;
 import org.lwjgl.util.glu.Project;
 import shadersmod.client.Shaders;
 import shadersmod.client.ShadersRender;
+import wug.Client;
+import wug.events.listeners.EventRender;
 import wug.ui.MainMenu;
 
 public class EntityRenderer implements IResourceManagerReloadListener
@@ -708,7 +710,7 @@ public class EntityRenderer implements IResourceManagerReloadListener
     /**
      * sets up player's eye (or camera in third person mode)
      */
-    private void orientCamera(float partialTicks)
+    public void orientCamera(float partialTicks)
     {
         Entity entity = this.mc.getRenderViewEntity();
         float f = entity.getEyeHeight();
@@ -1903,6 +1905,10 @@ public class EntityRenderer implements IResourceManagerReloadListener
 
             GlStateManager.clear(256);
 
+            EventRender er = new EventRender();
+            
+            Client.onEvent(er);
+            
             if (flag)
             {
                 ShadersRender.renderFPOverlay(this, partialTicks, pass);
